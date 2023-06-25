@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luis Omaña</title>
     <link rel="stylesheet" href="css/styles.css">
-    
+    <script src="https://kit.fontawesome.com/6989dc9893.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <a href="#inicio">
-            <img src="/img/logo.PNG" alt="Logo Luis">
-        </a> 
+            <img class="logo" src="/img/logo.PNG" alt="Logo Luis">
+        </a>
+        <!--Este es el menú--> 
         <nav>
             <ul id="menu">
                 <li class="menu-item"> <a href="#inicio">Inicio</a></li>
@@ -23,20 +24,24 @@
 
     <main>
         <section id="inicio">
-            <figure>
-                <img src="/img/luis.jpg" alt="Luis Omaña">
+            <!--Imagen inicial-->
+            <figure id="imagen-inicial">
+                <img class="imagen-inicial" src="/img/luis.jpg" alt="Luis Omaña">
             </figure>
             <article>
-                <h1>Hola! Mi nombre es Luis Omaña</h1>
-                    <p>Soy programador junior de 26 años, soy venezolano y actualmente resido en Santiago de Chile. Tengo menos de un año de experiencia en frontend, actualmente me encuentro en formación para ser programador en JavaScript.</p>
-                    <p>Mi meta es enfocar los conocimientos adquiridos con vista a la creación y diseño de páginas web. </p>
+                <!--Presentación-->
+                <h1 class="titulo">Hola! Mi nombre es Luis Omaña</h1>
+                <p class="presentacion">Soy programador junior de 26 años, soy venezolano y actualmente resido en Santiago de Chile. Tengo menos de un año de experiencia en frontend, actualmente me encuentro en formación para ser programador en JavaScript.</p>
+                <p class="presentacion">Mi meta es enfocar los conocimientos adquiridos con vista a la creación y diseño de páginas web. </p>
             </article>
-            <a href="">Descargar CV</a>
+            <!--Botón de descarga-->
+        <a class="button" href="">Descargar CV</a>
         </section>
         <section id="contacto">
             <article>
-                <h2>Contacto</h2>
-                <p>Si tienes alguna duda puedes contactarme a través de:</p>
+                <h2 class="subtitulo">Contacto</h2>
+                <p class="contacto">Si tienes alguna duda puedes contactarme a través de:</p>
+                <!--Links de contacto-->
                 <ul>
                     <li>
                         <i class="fa-brands fa-twitter"></i><a href="https://www.twitter.com" target="_blank">Twitter</a>
@@ -54,12 +59,19 @@
                     </li>
 
                 </ul>  
-                <ul>
-                    <li> <a href=""></a> <img src="/img/mail.png" alt="Mail"> </li>
-                    <li> <a href=""></a> <img src="/img/linkedin.png" alt="Linkedin"> </li>
-                    <li> <a href=""></a> <img src="/img/github.png" alt="Github"> </li>
-                </ul>
-            </article>
+            </article> 
+            <!--Links con imágenes-->
+            <ul>
+                <li> 
+                    <a href="https://www.google.com/intl/es/gmail/about/" target="_blank"><img src="/img/mail.png" alt="Mail"></a>
+                </li>
+                <li> 
+                    <a href="https://www.linkedin.com/in/luis-omaña-5aa1a114a/in" target="_blank"><img src="/img/linkedin.png" alt="Linkedin"></a> 
+                </li>
+                <li> 
+                    <a href="https://github.com/Luiseoma" target="_blank"><img src="/img/github.png" alt="Github"></a>
+                </li>
+            </ul>
         </section>
     </main>
 
